@@ -17,13 +17,13 @@ const Footer = () => {
             Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the more successful you become.
           </p>
           <p className="text-sm text-gray-500">
-            Copyright ©2024 All rights reserved | This template is made with love by Abeen
+            Copyright ©2024 All rights reserved | This site is made with love by Abeen
           </p>
         </div>
       </div>
 
       {/* Newsletter Section */}
-      <div>
+      <div className='lg:ml-16'>
         <h1 className="text-lg font-bold mb-4">Newsletter</h1>
         <p className="text-gray-400 mb-4">Stay updated with our latest trends</p>
         <div className="flex">
@@ -39,14 +39,14 @@ const Footer = () => {
       </div>
 
       {/* Follow Me Section */}
-      <div className=''>
+      <div className='lg:ml-20 '>
         <h1 className="text-lg font-bold mb-4">Follow Me</h1>
         <p className="text-gray-400 mb-4">Let us be social</p>
         <div className="flex gap-5">
-          <a href="#" className="text-gray-500 hover:text-white"><FaFacebookF /></a>
-          <a href="#" className="text-gray-500 hover:text-white"><FaInstagram /></a>
-          <a href="#" className="text-gray-500 hover:text-white"><FaLinkedinIn /></a>
-          <a href="#" className="text-gray-500 hover:text-white"><IoLogoTwitter /></a>
+          <a href="#" className="text-gray-500 hover:text-[#7670FE]"><FaFacebookF /></a>
+          <a href="#" className="text-gray-500 hover:text-[#7670FE]"><FaInstagram /></a>
+          <a href="#" className="text-gray-500 hover:text-[#7670FE]"><FaLinkedinIn /></a>
+          <a href="#" className="text-gray-500 hover:text-[#7670FE]"><IoLogoTwitter /></a>
         </div>
       </div>
     </div>
