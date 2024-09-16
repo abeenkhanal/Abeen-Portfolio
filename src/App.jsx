@@ -14,6 +14,7 @@ function App() {
     
   <Nav/>
     <Homepage />
+    
   <Footer/>
 
     </>
