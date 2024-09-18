@@ -14,8 +14,6 @@ const Homepage = () => {
         </div>
       </div>
     </div>
-    
-   
   )
   
 }
