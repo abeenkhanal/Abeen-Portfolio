@@ -7,7 +7,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <footer className='bg-black text-white'>
+        <footer className='bg-black mt-56 text-white'>
         <div className="w-11/12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto py-10 ">
       {/* About Me Section */}
       <div>
