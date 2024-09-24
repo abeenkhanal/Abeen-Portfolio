@@ -33,6 +33,7 @@ function Aboutself() {
               <span>(+977) 9869672969</span>
             </div>
 
+
             <div className="flex items-center text-gray-600 gap-3">
               <MdMailOutline className="w-5 h-5 cursor-pointer hover:text-blue-500" />
               <span>abeenkhanal16@gmail.com</span>
