@@ -1,5 +1,8 @@
 import React from 'react'
 import { IoMdMenu } from "react-icons/io";
+import { Link } from 'react-router-dom';
+
+
 
 const Nav = () => {
     return (
@@ -10,12 +13,12 @@ const Nav = () => {
                 </div>
                 <div className='hidden md:flex'>
                     <ul className='flex gap-10'>
-                        <li>Home</li>
-                        <li>About</li>
+                    <li className='cursor-pointer  hover:text-gray-500'><Link to={"/"}>Home</Link></li>
+                        <li><Link to={'/about'}>About</Link></li>
                         <li>Services</li>
                         <li>Pages</li>
                         <li>Blog</li>
-                        <li>Contact</li>
+                        <li><Link to={'/contact'}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className='md:hidden'>

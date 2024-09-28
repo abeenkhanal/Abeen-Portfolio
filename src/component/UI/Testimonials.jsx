@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Testimonials = () => {
-  // Sample testimonial data
+  
   const testimonials = [
     {
       text: "As conscious traveling Paup ers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face.",

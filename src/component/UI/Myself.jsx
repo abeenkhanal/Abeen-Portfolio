@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const Myself = () => {
   return (
     <div className=" py-12 mt-80">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row lg:space-x-12">
@@ -34,4 +34,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Myself;
