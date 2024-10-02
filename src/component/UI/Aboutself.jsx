@@ -31,7 +31,7 @@ function Aboutself() {
             <BsCalendarDate className="w-5 h-5 cursor-pointer hover:text-blue-500" />
             <span>19th January, 2002</span>
           </div>
-          
+
 
           <div className="flex items-center text-gray-600 gap-3 text-sm md:text-base lg:text-lg">
             <FaPhoneAlt className="w-5 h-5 cursor-pointer hover:text-blue-500" />
@@ -48,6 +48,7 @@ function Aboutself() {
             <span>Butwal, Rupandehi, Nepal</span>
           </div>
         </div>
+        
         {/* social media link */}
         <div className="flex mt-6 gap-4 text-xl md:text-2xl lg:text-3xl">
           <a href="#" className="text-gray-600 hover:text-blue-500">
