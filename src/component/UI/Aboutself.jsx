@@ -47,8 +47,9 @@ function Aboutself() {
             <TiHomeOutline className="w-5 h-5 cursor-pointer hover:text-blue-500" />
             <span>Butwal, Rupandehi, Nepal</span>
           </div>
-        </div>
         
+        </div>
+
         {/* social media link */}
         <div className="flex mt-6 gap-4 text-xl md:text-2xl lg:text-3xl">
           <a href="#" className="text-gray-600 hover:text-blue-500">
