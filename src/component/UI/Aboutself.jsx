@@ -61,6 +61,7 @@ function Aboutself() {
           <a href="#" className="text-gray-600 hover:text-blue-500">
             <FaLinkedin />
           </a>
+          
         </div>
       </div>
     </div>
